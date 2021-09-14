@@ -12,11 +12,18 @@
 .titles {
     display: flex;
     justify-content: center;
-    width: 100%;
-    height: 100%;
 }
 
 .title-blog, .title-shop, .title-note, .title-game{
     display: none;
 }
 
+.main-block {
+    display: flex;
+    justify-content: center;
+}
+
+.caption {
+    display: flex;
+    justify-content: center;
+}
