@@ -1,3 +1,14 @@
+.links-block {
+    display: block;
+    width: 100%;
+    border-color: black;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .titles {
     display: flex;
     justify-content: center;
@@ -8,3 +19,4 @@
 .title-blog, .title-shop, .title-note, .title-game{
     display: none;
 }
+
