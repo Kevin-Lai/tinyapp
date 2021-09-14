@@ -20,9 +20,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if(titleIdx === titlesList.length-1){
             currentTitle.style.color = "purple";
+            document.body.style.backgroundColor = "black";
         }
         else{
             currentTitle.style.color = "turquoise";
+            document.body.style.backgroundColor = "white";
         }
     });
 
@@ -36,9 +38,11 @@ document.addEventListener("DOMContentLoaded", () => {
         
         if(titleIdx === titlesList.length-1){
             currentTitle.style.color = "purple";
+            document.body.style.backgroundColor = "black";
         }
         else{
             currentTitle.style.color = "turquoise";
+            document.body.style.backgroundColor = "white";
         }
     });
 

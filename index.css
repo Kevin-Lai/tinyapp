@@ -19,6 +19,7 @@
 .nav-link {
     cursor: pointer;
     font-size: 30px;
+    color: orange;
 }
 
 .title {
@@ -26,6 +27,7 @@
     justify-content: center;
     margin-left: 50px;
     margin-right: 50px;
+    color: orange;
 }
 
 #title-current {
@@ -41,14 +43,15 @@
 .caption {
     display: flex;
     justify-content: center;
+    color: orange;
 }
 
 #left-button, #right-button {
     background: none;
-	color: inherit;
 	border: none;
 	padding: 0;
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+    color: orange;
 }
