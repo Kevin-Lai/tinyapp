@@ -27,6 +27,10 @@
     margin-right: 50px;
 }
 
+#title-current {
+    color: turquoise;
+}
+
 .main-block {
     display: flex;
     justify-content: center;
