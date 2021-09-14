@@ -14,11 +14,11 @@
 .links {
     display: flex;
     justify-content: space-evenly;
-    font-size: 30px;
 }
 
 .nav-link {
     cursor: pointer;
+    font-size: 30px;
 }
 
 .title {
