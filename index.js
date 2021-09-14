@@ -17,6 +17,13 @@ document.addEventListener("DOMContentLoaded", () => {
             titleIdx--;
         }
         currentTitle.innerHTML = titlesList[titleIdx];
+
+        if(titleIdx === titlesList.length-1){
+            currentTitle.style.color = "purple";
+        }
+        else{
+            currentTitle.style.color = "turquoise";
+        }
     });
 
     rightButton.addEventListener("click", ()=>{
@@ -26,6 +33,13 @@ document.addEventListener("DOMContentLoaded", () => {
             titleIdx++;
         }
         currentTitle.innerHTML = titlesList[titleIdx];
+        
+        if(titleIdx === titlesList.length-1){
+            currentTitle.style.color = "purple";
+        }
+        else{
+            currentTitle.style.color = "turquoise";
+        }
     });
 
 });
